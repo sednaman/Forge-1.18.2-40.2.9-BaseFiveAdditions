@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "basefiveadditions:faiconium"
+    }
+  },
+  "result": {
+    "item": "basefiveadditions:faiconium_block"
+  }
+}

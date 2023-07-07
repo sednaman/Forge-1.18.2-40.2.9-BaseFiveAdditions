@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "basefiveadditions:faiconium_block"
+    }
+  ],
+  "result": {
+    "item": "basefiveadditions:faiconium",
+    "count": 9
+  }
+}
