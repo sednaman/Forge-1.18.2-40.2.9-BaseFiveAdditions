@@ -3,5 +3,11 @@
 
   "block.basefiveadditions.faiconium_block": "Faiconium Block",
 
-  "itemGroup.basefivetab": "Base Five Additions"
+  "itemGroup.basefivetab": "Base Five Additions",
+
+  "item.basefiveadditions.faiconium_pickaxe": "Faiconium Pickaxe",
+  "item.basefiveadditions.faiconium_axe": "Faiconium Axe",
+  "item.basefiveadditions.faiconium_shovel": "Faiconium Shovel",
+  "item.basefiveadditions.faiconium_hoe": "Faiconium Hoe",
+  "item.basefiveadditions.faiconium_sword": "Faiconium Pickaxe"
 }
