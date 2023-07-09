@@ -1,11 +1,13 @@
 package net.sedna.basefiveadditions.item;
 
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sedna.basefiveadditions.BaseFiveAdditions;
+import net.sedna.basefiveadditions.entity.ModEntityTypes;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -30,6 +32,9 @@ public class ModItems {
                     new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
     public static final RegistryObject<Item> FAICONIUM_HOE = ITEMS.register("faiconium_hoe",
             () -> new HoeItem(ModTiers.FAICONIUM, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
+    public static final RegistryObject<Item> FALCON_SPAWN_EGG = ITEMS.register("falcon_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntityTypes.FALCON, 0x3d1d00, 0xb5b5b5,
                     new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
 
     public static void register(IEventBus eventBus){

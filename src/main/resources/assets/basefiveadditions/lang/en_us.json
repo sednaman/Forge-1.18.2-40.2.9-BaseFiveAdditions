@@ -9,5 +9,9 @@
   "item.basefiveadditions.faiconium_axe": "Faiconium Axe",
   "item.basefiveadditions.faiconium_shovel": "Faiconium Shovel",
   "item.basefiveadditions.faiconium_hoe": "Faiconium Hoe",
-  "item.basefiveadditions.faiconium_sword": "Faiconium Pickaxe"
+  "item.basefiveadditions.faiconium_sword": "Faiconium Sword",
+
+  "item.basefiveadditions.falcon_spawn_egg": "Falcon Spawn Egg",
+
+  "entity.basefiveadditions.falcon": "Falcon"
 }
