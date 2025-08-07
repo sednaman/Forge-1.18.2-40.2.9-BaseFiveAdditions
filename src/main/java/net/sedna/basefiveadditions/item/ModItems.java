@@ -16,6 +16,15 @@ public class ModItems {
     public static final RegistryObject<Item> FAICONIUM = ITEMS.register("faiconium",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
 
+    public static final RegistryObject<Item> FAICONIUM_COIN = ITEMS.register("faiconium_coin",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
+
+    public static final RegistryObject<Item> FAICONIUM_COIN_2 = ITEMS.register("faiconium_coin_2",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
+
+    public static final RegistryObject<Item> FAICONIUM_COIN_3 = ITEMS.register("faiconium_coin_3",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
+
     public static final RegistryObject<Item> FAICONIUM_SWORD = ITEMS.register("faiconium_sword",
             () -> new SwordItem(ModTiers.FAICONIUM, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.BASE_FIVE_TAB)));
